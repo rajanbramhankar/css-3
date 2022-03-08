@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color:grey;
+      width: 100vw;
+  }
+  
+  .top{
+      background-color: white;
+      border: 10px solid red;
+      border-radius: 20px;
+      font-style: italic;
+      font-weight: bold;
+      height: 120px;
+      width: 400px;
+      padding: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      position: absolute;
+      left: 435px;
+      font-size: 20px;
+      text-align: center;
+      color: maroon;
+      box-shadow: 10px 10px 10px brown;
+  }
+  
+  .middel{
+      border: 10px solid rgb(57, 88, 9);
+      display:flex;
+      flex-flow: column wrap;
+      position: absolute;
+      top: 200px;
+      width:100vw;
+  
+  }
+  
+  .item1{
+      display: flex;
+      flex-flow: row wrap;
+      margin: 20px;
+  
+  }
+  
+  .bx1{
+     border: 10px solid red;
+     background-color: white;
+     border-radius: 20px;
+     height: 200px;
+     padding: 20px;
+     display: flex;
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     box-shadow: 10px 10px 10px brown;
+     
+    
+  }
+  
+  .bx2{
+      border: 10px solid red;
+      background-color: white;
+      border-radius: 20px;
+      height: 200px;
+      position: absolute;
+      right: 50px;
+      padding: 20px;
+      box-shadow: 10px 10px 10px brown;
+      
+      
+      
+  
+      
+  }
+  
+  .item2{
+      display: flex;
+      flex-flow: row wrap;
+      margin: 20px;
+  }
+  
+  .bx3{
+      border: 10px solid red;
+      background-color: white;
+      border-radius: 20px;
+      height: 200px;
+      padding: 20px;
+      text-align: left;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 10px 10px 10px brown;
+  
+  }
+  
+  .bx4{
+      border: 10px solid red;
+      background-color: white;
+      border-radius: 20px;
+      height: 200px;
+      position: absolute;
+      right: 50px;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 10px 10px 10px brown;
+  }
+  
+  .textsmall{
+      font-size: 15px;
+      font-weight: bold;
+  }
+  
+  .button{
+      background-color: red;
+      border: 2px solid rgba(255, 0, 0, 0.479);
+      border-radius: 5px;
+      
+  }
+  
+  
+  
+  .bottom{
+      border: 10px solid purple;
+      background-color: green;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 900px;
+      left: 280px;
+      align-items: center;
+      }
+  
+  .main{
+  
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+  }
+  
+  
+  .one{
+      font-size: larger;
+      font-weight: bolder;
+  }
+  
+  .two{
+      background-color: yellow; 
+   
+      float: left;
+      padding: 10px;
+  
+  }
+  .twos{
+      text-align: center;
+      font-weight: bold;
+  }
+  .twos1{
+    text-align: center;
+    font-style: italic;
+
+  }
+  
+  .three{
+      background-color: yellow;
+      float: right; 
+      padding: 10px;
+ }
+
+ .threes{
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+  
+  .four{
+      background-color: yellow; 
+      /* padding: 10px; */
+  
+  
+  }
+
+  .fours{
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .float{
+      border: 10px solid red;
+      background-color: greenyellow;
+      border-radius: 20px;
+      display: flex;
+      flex-flow: wrap;
+      width: 300px;
+      padding: 15px;
+      position:fixed;
+      right: 510px;
+      top: 500px;
+ }
+
+ .fb1{
+     color: brown;
+ }
+
+  
+  .fb2{
+       position: absolute;
+       right: 10px;
+       color: brown;
+  }
